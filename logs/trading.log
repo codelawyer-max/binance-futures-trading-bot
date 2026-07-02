@@ -1,0 +1,20 @@
+2026-07-02 18:42:09,093 - INFO - ================ NEW CLI INVOCATION ================
+2026-07-02 18:42:09,094 - INFO - Command parameters received: symbol=BTCUSDT, side=BUY, type=MARKET, qty=0.001, price=None
+2026-07-02 18:42:09,094 - INFO - Initializing Binance Futures Client...
+2026-07-02 18:42:10,200 - INFO - Successfully connected to Binance Futures Testnet. Server Time: 1782997930130
+2026-07-02 18:42:10,217 - INFO - Sending Order Payload -> Symbol: BTCUSDT | Side: BUY | Type: MARKET | Qty: 0.001
+2026-07-02 18:42:10,428 - INFO - Order Executed Successfully! Order ID: 18489052303
+2026-07-02 18:42:10,433 - INFO - CLI Finished Processing. Order ID 18489052303 output cleanly displayed.
+2026-07-02 18:43:11,399 - INFO - ================ NEW CLI INVOCATION ================
+2026-07-02 18:43:11,401 - INFO - Command parameters received: symbol=BTCUSDT, side=BUY, type=LIMIT, qty=0.001, price=40000.0
+2026-07-02 18:43:11,401 - INFO - Initializing Binance Futures Client...
+2026-07-02 18:43:13,296 - INFO - Successfully connected to Binance Futures Testnet. Server Time: 1782997993226
+2026-07-02 18:43:13,309 - INFO - Sending Order Payload -> Symbol: BTCUSDT | Side: BUY | Type: LIMIT | Qty: 0.001
+2026-07-02 18:43:13,515 - ERROR - Binance Exchange Rejected Order: Code -4164 | Message: Order's notional must be no smaller than 50 (unless you choose reduce only).
+2026-07-02 18:46:03,120 - INFO - ================ NEW CLI INVOCATION ================
+2026-07-02 18:46:03,121 - INFO - Command parameters received: symbol=BTCUSDT, side=BUY, type=LIMIT, qty=0.0015, price=40000.0
+2026-07-02 18:46:03,121 - INFO - Initializing Binance Futures Client...
+2026-07-02 18:46:04,943 - INFO - Successfully connected to Binance Futures Testnet. Server Time: 1782998164836
+2026-07-02 18:46:04,950 - INFO - Sending Order Payload -> Symbol: BTCUSDT | Side: BUY | Type: LIMIT | Qty: 0.0015
+2026-07-02 18:46:05,138 - INFO - Order Executed Successfully! Order ID: 18489702989
+2026-07-02 18:46:05,142 - INFO - CLI Finished Processing. Order ID 18489702989 output cleanly displayed.
