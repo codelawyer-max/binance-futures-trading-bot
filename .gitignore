@@ -1,0 +1,12 @@
+# Ignore the virtual environment folder entirely
+venv/
+
+# Ignore local environment variables / API secrets
+.env
+
+# Ignore Python cache files
+__pycache__/
+
+# Ignore log files so local test runs don't clutter the code repository
+logs/
+*.log
